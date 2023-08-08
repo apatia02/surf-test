@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/MainFragment">
+
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="com.example.surf.presentation.fragment.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/action_MainFragment_to_CocktailEditFragment"
+            app:destination="@id/CocktailEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/MyCocktailsFragment"
+        android:name="com.example.surf.presentation.fragment.MyCocktailsFragment"
+        android:label="MyCocktailsFragment"
+        tools:layout="@layout/fragment_my_cocktails">
+
+        <action
+            android:id="@+id/action_MyCocktailsFragment_to_MainFragment"
+            app:destination="@id/MainFragment" />
+        <action
+            android:id="@+id/action_MyCocktailsFragment_to_CocktailEditFragment"
+            app:destination="@id/CocktailEditFragment" />
+        <action
+            android:id="@+id/action_MyCocktailsFragment_to_CocktailDetailFragment"
+            app:destination="@id/CocktailDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CocktailDetailFragment"
+        android:name="com.example.surf.presentation.fragment.CocktailDetailFragment"
+        android:label="CocktailDetailFragment"
+        tools:layout="@layout/fragment_cocktail_detail">
+        <argument
+            android:name="cocktail_index"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_CocktailDetailFragment_to_CocktailEditFragment"
+            app:destination="@id/CocktailEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/CocktailEditFragment"
+        android:name="com.example.surf.presentation.fragment.CocktailEditFragment"
+        android:label="CocktailEditFragment"
+        tools:layout="@layout/fragment_cocktail_edit">
+        <argument
+            android:name="cocktail_index"
+            app:argType="integer" />
+        <argument
+            android:name="type_enter"
+            app:argType="integer" />
+    </fragment>
+
+
+</navigation>

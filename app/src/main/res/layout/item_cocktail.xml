@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cocktail"
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        app:cardCornerRadius="54dp">
+
+        <ImageView
+            android:id="@+id/cocktail_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/place_holder" />
+
+        <TextView
+            android:id="@+id/cocktail_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:text="@string/my_cocktails"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

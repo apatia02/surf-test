@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">surf</string>
+    <string name="my_cocktails">My cocktails</string>
+    <string name="add_your_first_n_cocktail_here">Add your first \n cocktail here</string>
+    <string name="recipe">Recipe:</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="recipe_edit">Recipe</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="add_ingredient">Add ingredient</string>
+    <string name="delete">Delete</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/ingredient_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp" />
+        <ImageView
+            android:id="@+id/ingredient_line_img"
+            android:layout_width="9dp"
+            android:layout_height="3dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/line"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@null" />
+
+</LinearLayout>
