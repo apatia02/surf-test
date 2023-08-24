@@ -10,6 +10,7 @@
 Сделал удаление и изменение коктейля.
 
 ## Скриншоты работы приложения 
+<img src="https://github.com/apatia02/surf-test/assets/79794866/d2938131-c867-4f3e-a9e9-c6f5a77fec4c" width=450/>
 ![Screenshot_1691528482](https://github.com/apatia02/surf-test/assets/79794866/d2938131-c867-4f3e-a9e9-c6f5a77fec4c)
 ![Screenshot_1691528495](https://github.com/apatia02/surf-test/assets/79794866/1c24697e-bdc9-4dbe-91dc-eb23ec4bdf9f)
 ![Screenshot_1691528526](https://github.com/apatia02/surf-test/assets/79794866/6ae2c476-a9a4-4c14-b851-261c9eb276b8)
